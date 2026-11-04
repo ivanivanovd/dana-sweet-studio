@@ -4,3 +4,10 @@
 
 .card .image{height:340px}.card img{height:100%;object-fit:cover;object-position:center}.card:nth-child(6) img{object-position:center 65%}.favorite{position:relative;padding-left:180px;overflow:hidden;min-height:210px}.favorite img{position:absolute;left:0;top:0;width:150px;height:100%;object-fit:cover}@media(max-width:580px){.card .image{height:220px}.favorite{padding-left:145px}.favorite img{width:120px}.favorite strong{font-size:38px}}
 
+/* Soft scalloped edges inspired by the supplied reference. */
+.favorites,.partners,.contact{position:relative;margin-block:22px;isolation:isolate}
+.favorites{--section-fill:#f5e5dd}.partners{--section-fill:#e8eef0}.contact{--section-fill:#ffedca}
+.favorites::before,.favorites::after,.partners::before,.partners::after,.contact::before,.contact::after{content:"";position:absolute;left:0;width:100%;height:24px;pointer-events:none;background:radial-gradient(ellipse 24px 24px at 50% 100%,var(--section-fill) 98%,transparent 100%) 0 0/48px 24px repeat-x}
+.favorites::before,.partners::before,.contact::before{top:-23px}
+.favorites::after,.partners::after,.contact::after{bottom:-23px;transform:rotate(180deg)}
+@media(max-width:580px){.favorites::before,.favorites::after,.partners::before,.partners::after,.contact::before,.contact::after{height:16px;background-size:32px 16px;background-image:radial-gradient(ellipse 16px 16px at 50% 100%,var(--section-fill) 98%,transparent 100%)}.favorites::before,.partners::before,.contact::before{top:-15px}.favorites::after,.partners::after,.contact::after{bottom:-15px}}
