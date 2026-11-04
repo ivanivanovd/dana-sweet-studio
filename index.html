@@ -18,34 +18,23 @@
     }
 
     .button, .order {
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-        background-color: transparent;
         color: #5a1a21 !important;
         -webkit-text-fill-color: #5a1a21;
-        text-decoration: none;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 0;
     }
     
     .button::after, 
     .order::after,
     .favorite i::after {
-        content: "";
-        display: inline-block;
-        width: 7px;
-        height: 7px;
-        border-top: 1px solid currentColor;
-        border-right: 1px solid currentColor;
-        transform: rotate(45deg);
-        margin-left: 6px;
-        margin-bottom: 2px;
+        content: " ↗";
+        font-family: sans-serif;
+        color: inherit;
     }
 
-    #copy::after, .close::after {
+    #copy::after {
+        content: none !important;
+    }
+    
+    .close::after {
         content: none !important;
     }
 </style>
