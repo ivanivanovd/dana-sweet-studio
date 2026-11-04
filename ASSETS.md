@@ -5,3 +5,5 @@ hero.jpg — создано встроенным ImageGen, не фотограф
 Промпт: Photorealistic editorial patisserie still life for premium DANA Sweet Studio website, vertical 3:4: individual raspberry mousse cake, pistachio and chocolate caramel trifle cups, chocolate chip cookies, ivory ceramic and oat milk linen, soft natural daylight, oat milk, blush and butter palette, no people, lettering, logos or watermark.
 
 Перед коммерческим запуском заменить иллюстрацию оригинальными фото каждого десерта.
+
+Фото snickers, pistachio, tiramisu, three-chocolate, cheesecake, medovik, cookies-oreo, cookies-milka, cookies-3 предоставлены пользователем и сопоставлены с карточками по его указанию. Происхождение и авторство не заявляются; сохранены в JPEG без изменения содержимого.
