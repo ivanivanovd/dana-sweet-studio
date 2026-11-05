@@ -17,23 +17,35 @@
         line-height: 1.4;
     }
 
-    .button, .order {
+    .button, button.button {
+        background-color: #5a1a21 !important;
+        color: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
         -webkit-appearance: none;
-        -moz-appearance: none;
         appearance: none;
-        background-color: transparent;
-        color: #5a1a21 !important;
-        -webkit-text-fill-color: #5a1a21;
+        border: 1px solid #5a1a21;
+        border-radius: 0;
         text-decoration: none;
         display: inline-flex;
         align-items: center;
         justify-content: center;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .order.outline {
+        background-color: transparent !important;
+        color: #5a1a21 !important;
+        -webkit-text-fill-color: #5a1a21 !important;
+        border: 1px solid #5a1a21;
+        -webkit-appearance: none;
+        appearance: none;
         border-radius: 0;
+        -webkit-tap-highlight-color: transparent;
     }
 </style>
 </head>
 <body><a class="skip" href="#catalog">Перейти к десертам</a><div class="demo">Портфолио Liberté Digital · демонстрационный каталог · фото иллюстративные</div><header><a class="brand" href="#" aria-label="DANA Sweet Studio, главная"><span>DANA</span><i>Sweet Studio</i></a><nav aria-label="Основная навигация"><a href="#catalog">Десерты</a><a href="#about">О студии</a><a href="#partners">Для бизнеса</a><a href="#delivery">Доставка</a></nav><button class="order outline">Связаться</button></header>
-<main><section class="hero"><div class="hero-copy"><p class="eyebrow">АВТОРСКИЕ ДЕСЕРТЫ · С ЛЮБОВЬЮ К ДЕТАЛЯМ</p><h1>Искусство<br>в каждом<br><em>десерте</em></h1><p>Нежные текстуры. Знакомые вкусы.<br>Маленький повод сделать день особенным.</p><a class="button" href="#catalog">Смотреть десерты</a><button class="order outline hero-order">Заказать</button></div><figure class="hero-photo"><img src="hero.jpg" width="1100" height="1400" alt="Демонстрационная AI-иллюстрация десертов"><figcaption>the art of sweet moments</figcaption><span class="photo-note">Демонстрационная AI-иллюстрация</span></figure><span class="vertical">DANA SWEET STUDIO — PATISSERIE</span></section>
+<main><section class="hero"><div class="hero-copy"><p class="eyebrow">АВТОРСКИЕ ДЕСЕРТЫ · С ЛЮБОВЬЮ К ДЕТАЛЯМ</p><h1>Искусство<br>в каждом<br><em>десерте</em></h1><p>Нежные текстуры. Знакомые вкусы.<br>Маленький повод сделать день особенным.</p></div><figure class="hero-photo"><img src="hero.jpg" width="1100" height="1400" alt="Демонстрационная AI-иллюстрация десертов"><figcaption>the art of sweet moments</figcaption><span class="photo-note">Демонстрационная AI-иллюстрация</span></figure><span class="vertical">DANA SWEET STUDIO — PATISSERIE</span></section>
 <div class="ribbon">Нежность в текстурах <span>✧</span> Внимание к ингредиентам <span>✧</span> Красота в деталях <span>✧</span> Десерты для ваших моментов</div>
 <section id="catalog" class="section"><div class="section-head"><div><p class="eyebrow">КОЛЛЕКЦИЯ ВКУСОВ</p><h2>Выберите своё <em>настроение</em></h2></div><p>От сливочной классики до ярких акцентов.<br>Каждый десерт — маленькая история.</p></div><div class="filters" role="group" aria-label="Категории десертов"><button aria-pressed="true" data-filter="all">Все десерты</button><button aria-pressed="false" data-filter="trifle">Трайфлы</button><button aria-pressed="false" data-filter="classic">Классика</button><button aria-pressed="false" data-filter="cookies">Cookies</button></div><p class="catalog-note">Образцы каталога: фото иллюстративные, составы, точный вес и цены уточняются. Ориентир по анкете: 100–200 г · 200–300 ₽.</p><p id="count" class="sr-only" aria-live="polite"></p><div class="grid" id="products"></div><p class="catalog-end">И это только начало коллекции. Полный ассортимент — около 15 позиций, каталог дополняется.</p></section>
 <section class="favorites section"><div><p class="eyebrow">ОСОБЕННО ЛЮБИМЫЕ</p><h2>Два повода<br><em>влюбиться</em></h2><p>Трайфлы «Фисташка» и «Сникерс» —<br>фавориты коллекции DANA.</p></div><div class="favorite-list"><button class="favorite order" data-name="Трайфл «Фисташка»"><img src="pistachio.jpg" alt="Трайфл Фисташка" width="150" height="210" loading="lazy"><span>01 / PISTACHIO</span><strong>Фисташка</strong><i>Выбрать</i></button><button class="favorite order" data-name="Трайфл «Сникерс»"><img src="snickers.jpg" alt="Трайфл Сникерс" width="150" height="210" loading="lazy"><span>02 / SNICKERS</span><strong>Сникерс</strong><i>Выбрать</i></button></div></section>
